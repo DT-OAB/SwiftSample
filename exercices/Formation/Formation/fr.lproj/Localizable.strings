@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Formation
+
+  Created by Brendan GUEGAN on 07/01/2014.
+  Copyright (c) 2014 IT&L@bs. All rights reserved.
+*/
+"General.Ok"                                            =   "Ok";
+"General.Cancel"                                        =   "Annuler";
+"General.DateFormat"                                    =   "dd/MM/yyyy à HH:mm";
+
+"RSSFeedListViewController.NavigationItem.Title"        =   "Liste des flux";
+
+"RSSFeedListViewController.AddFeed.Title"               =   "Ajout d'un nouveau flux";
+"RSSFeedListViewController.AddFeed.Message"             =   "Saisissez l'url du flux RSS à ajouter";
+"RSSFeedListViewController.AddFeed.BadURL"              =   "Veuillez saisir une url en http";
+
+"RSSFeedViewController.GetRSSFeed.Error"                =   "Erreur de récupération du flux";
+"RSSFeedViewController.GetRSSFeed.Loading"              =   "Chargement ...";
+
