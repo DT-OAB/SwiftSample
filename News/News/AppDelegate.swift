@@ -12,19 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var manager: NetworkManager?
+    var manager: BusinessManager?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        manager = NetworkManagerImpl()
-        let request = NetworkRequest.sources(language: .english, category: .technology, country: .usa)
-        manager?.delegate = self
-        do {
-            try manager?.performRequest(request: request)
-        }
-        catch {
-            print("error while trying to perform request: \(error)")
+        manager = BusinessManagerImpl()
+        manager?.getSources { sources, error in
+        manager?.getSources(for: .english, category: .technology, country: .usa) { sources, error in
+            if let error = error {
+                print("error while trying to get sources: \(error)")
+                return
+            }
+            if let sources = sources {
+                print("retrieve sources: \(sources)")
+            }
         }
         return true
     }
@@ -54,12 +56,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-extension AppDelegate: NetworkManagerDelegate {
-    func networkManager(_ manager: NetworkManager, didFinishWith json: JSON) {
-        print("request ended with: \(json)")
-    }
-    func networkManager(_ manager: NetworkManager, didFinishWith error: Error) {
-        print("error while performing request: \(error)")
-    }
-}
 

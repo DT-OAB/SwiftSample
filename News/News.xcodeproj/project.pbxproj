@@ -18,6 +18,8 @@
 		121D08FD1DABC900000FB6D0 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D08FC1DABC900000FB6D0 /* NetworkRequest.swift */; };
 		121D08FF1DABD023000FB6D0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D08FE1DABD023000FB6D0 /* NetworkManager.swift */; };
 		121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */; };
+		121D09031DABEBAC000FB6D0 /* BusinessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09021DABEBAC000FB6D0 /* BusinessManager.swift */; };
+		121D09051DABEC52000FB6D0 /* BusinessManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		121D08FC1DABC900000FB6D0 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		121D08FE1DABD023000FB6D0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerImpl.swift; sourceTree = "<group>"; };
+		121D09021DABEBAC000FB6D0 /* BusinessManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessManager.swift; sourceTree = "<group>"; };
+		121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessManagerImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				121D08FC1DABC900000FB6D0 /* NetworkRequest.swift */,
 				121D08FE1DABD023000FB6D0 /* NetworkManager.swift */,
 				121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */,
+				121D09021DABEBAC000FB6D0 /* BusinessManager.swift */,
+				121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -174,9 +180,11 @@
 				121D08E71DABC3F1000FB6D0 /* SecondViewController.swift in Sources */,
 				121D08F91DABC425000FB6D0 /* NewsSource.swift in Sources */,
 				121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */,
+				121D09031DABEBAC000FB6D0 /* BusinessManager.swift in Sources */,
 				121D08FB1DABC524000FB6D0 /* Article.swift in Sources */,
 				121D08FF1DABD023000FB6D0 /* NetworkManager.swift in Sources */,
 				121D08E31DABC3F1000FB6D0 /* AppDelegate.swift in Sources */,
+				121D09051DABEC52000FB6D0 /* BusinessManagerImpl.swift in Sources */,
 				121D08FD1DABC900000FB6D0 /* NetworkRequest.swift in Sources */,
 				121D08E51DABC3F1000FB6D0 /* FirstViewController.swift in Sources */,
 			);

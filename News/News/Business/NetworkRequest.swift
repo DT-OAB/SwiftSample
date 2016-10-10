@@ -18,31 +18,8 @@ enum NetworkRequest {
         case latest = "latest"
         case popular = "popular"
     }
-    enum SourceCategory: String {
-        case business = "top"
-        case entertainment = "latest"
-        case gaming = "gaming"
-        case general = "general"
-        case music = "music"
-        case scienceAndNature = "science-and-nature"
-        case sport = "sport"
-        case technology = "technology"
-    }
-    enum SourceCountry: String {
-        case australia = "au"
-        case germany = "de"
-        case unitedKingdom = "gb"
-        case india = "in"
-        case italy = "it"
-        case usa = "us"
-    }
-    enum SourceLanguage: String {
-        case english = "en"
-        case french = "fr"
-        case german = "de"
-    }
     
-    case sources(language: SourceLanguage, category: SourceCategory, country: SourceCountry)
+    case sources(language: NewsSource.SourceLanguage, category: NewsSource.SourceCategory, country: NewsSource.SourceCountry)
     case articles(source: String, sortBy: SortBy)
     
     var method: String {
