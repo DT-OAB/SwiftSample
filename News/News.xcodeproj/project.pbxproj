@@ -16,6 +16,8 @@
 		121D08F91DABC425000FB6D0 /* NewsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D08F81DABC425000FB6D0 /* NewsSource.swift */; };
 		121D08FB1DABC524000FB6D0 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D08FA1DABC524000FB6D0 /* Article.swift */; };
 		121D08FD1DABC900000FB6D0 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D08FC1DABC900000FB6D0 /* NetworkRequest.swift */; };
+		121D08FF1DABD023000FB6D0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D08FE1DABD023000FB6D0 /* NetworkManager.swift */; };
+		121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		121D08F81DABC425000FB6D0 /* NewsSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSource.swift; sourceTree = "<group>"; };
 		121D08FA1DABC524000FB6D0 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		121D08FC1DABC900000FB6D0 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		121D08FE1DABD023000FB6D0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				121D08FC1DABC900000FB6D0 /* NetworkRequest.swift */,
+				121D08FE1DABD023000FB6D0 /* NetworkManager.swift */,
+				121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 			files = (
 				121D08E71DABC3F1000FB6D0 /* SecondViewController.swift in Sources */,
 				121D08F91DABC425000FB6D0 /* NewsSource.swift in Sources */,
+				121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */,
 				121D08FB1DABC524000FB6D0 /* Article.swift in Sources */,
+				121D08FF1DABD023000FB6D0 /* NetworkManager.swift in Sources */,
 				121D08E31DABC3F1000FB6D0 /* AppDelegate.swift in Sources */,
 				121D08FD1DABC900000FB6D0 /* NetworkRequest.swift in Sources */,
 				121D08E51DABC3F1000FB6D0 /* FirstViewController.swift in Sources */,
