@@ -31,6 +31,20 @@ class NewsSourceTableViewController: UITableViewController {
         }
     }
     var newsSources = [NewsSource]()
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            switch identifier {
+            case "newsSourceListToDetail":
+                if let dest = segue.destination as? NewsSourceDetailViewController, let cell = sender as? NewsSourceTableViewCell {
+                    dest.newsSource = cell.newsSource
+                    dest.manager = manager
+                }
+            default:
+                break
+            }
+        }
+    }
 }
 
 extension NewsSourceTableViewController {
