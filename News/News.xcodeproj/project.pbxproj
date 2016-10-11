@@ -20,6 +20,8 @@
 		121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */; };
 		121D09031DABEBAC000FB6D0 /* BusinessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09021DABEBAC000FB6D0 /* BusinessManager.swift */; };
 		121D09051DABEC52000FB6D0 /* BusinessManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */; };
+		121D09081DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09071DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift */; };
+		121D090A1DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09091DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerImpl.swift; sourceTree = "<group>"; };
 		121D09021DABEBAC000FB6D0 /* BusinessManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessManager.swift; sourceTree = "<group>"; };
 		121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessManagerImpl.swift; sourceTree = "<group>"; };
+		121D09071DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceTableViewController.swift; sourceTree = "<group>"; };
+		121D09091DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			children = (
 				121D08F61DABC415000FB6D0 /* Business */,
 				121D08F71DABC415000FB6D0 /* Entities */,
+				121D09061DAD8A45000FB6D0 /* ViewControllers */,
 				121D08E21DABC3F1000FB6D0 /* AppDelegate.swift */,
 				121D08E41DABC3F1000FB6D0 /* FirstViewController.swift */,
 				121D08E61DABC3F1000FB6D0 /* SecondViewController.swift */,
@@ -102,6 +107,15 @@
 				121D08FA1DABC524000FB6D0 /* Article.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		121D09061DAD8A45000FB6D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				121D09071DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift */,
+				121D09091DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +196,11 @@
 				121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */,
 				121D09031DABEBAC000FB6D0 /* BusinessManager.swift in Sources */,
 				121D08FB1DABC524000FB6D0 /* Article.swift in Sources */,
+				121D09081DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift in Sources */,
 				121D08FF1DABD023000FB6D0 /* NetworkManager.swift in Sources */,
 				121D08E31DABC3F1000FB6D0 /* AppDelegate.swift in Sources */,
 				121D09051DABEC52000FB6D0 /* BusinessManagerImpl.swift in Sources */,
+				121D090A1DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift in Sources */,
 				121D08FD1DABC900000FB6D0 /* NetworkRequest.swift in Sources */,
 				121D08E51DABC3F1000FB6D0 /* FirstViewController.swift in Sources */,
 			);
