@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct NewsSource {
+struct NewsSource: JSONDecodable {
     
     enum LogoType: String {
         case small = "small"
@@ -47,7 +47,7 @@ struct NewsSource {
     let language: SourceLanguage
     let country: SourceCountry
     var logos = [LogoType: URL]()
-    
+    /// Voici un tableau d'articles
     var articles = [Article]()
     
     mutating func add(logoWith type: LogoType, url: URL?) {
@@ -57,13 +57,16 @@ struct NewsSource {
         logos[type] = nil
     }
     
+    /// Voici ce que fait ma méthode
+    ///
+    /// - parameter article: Voici à quoi sert ce paramètre
     mutating func add(article: Article) {
         articles.append(article)
     }
     mutating func remove(article: Article) {
-        if let idx = articles.index(where: {$0.url == article.url }) {
-            articles.remove(at: idx)
-        }
+        let filtered = articles.filter { $0.author.hasPrefix("John") }.count > 0
+        articles.removeObject { $0.url == article.url }
+//        articles.removeObject(object: article)
     }
     mutating func removeAllArticles() {
         articles.removeAll()

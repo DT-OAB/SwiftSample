@@ -20,6 +20,9 @@
 		121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */; };
 		121D09031DABEBAC000FB6D0 /* BusinessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09021DABEBAC000FB6D0 /* BusinessManager.swift */; };
 		121D09051DABEC52000FB6D0 /* BusinessManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */; };
+		121D09101DAE6A3D000FB6D0 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D090F1DAE6A3D000FB6D0 /* JSONDecodable.swift */; };
+		121D09121DAE710B000FB6D0 /* BusinessManagerImpl+NetworkManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09111DAE710B000FB6D0 /* BusinessManagerImpl+NetworkManagerDelegate.swift */; };
+		121D09141DAE7228000FB6D0 /* Array+RemoveObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09131DAE7228000FB6D0 /* Array+RemoveObject.swift */; };
 		121D09081DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09071DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift */; };
 		121D090A1DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D09091DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift */; };
 		121D090C1DAD9465000FB6D0 /* NewsSourceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121D090B1DAD9465000FB6D0 /* NewsSourceDetailViewController.swift */; };
@@ -42,6 +45,9 @@
 		121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerImpl.swift; sourceTree = "<group>"; };
 		121D09021DABEBAC000FB6D0 /* BusinessManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessManager.swift; sourceTree = "<group>"; };
 		121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessManagerImpl.swift; sourceTree = "<group>"; };
+		121D090F1DAE6A3D000FB6D0 /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		121D09111DAE710B000FB6D0 /* BusinessManagerImpl+NetworkManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BusinessManagerImpl+NetworkManagerDelegate.swift"; sourceTree = "<group>"; };
+		121D09131DAE7228000FB6D0 /* Array+RemoveObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveObject.swift"; sourceTree = "<group>"; };
 		121D09071DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceTableViewController.swift; sourceTree = "<group>"; };
 		121D09091DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceTableViewCell.swift; sourceTree = "<group>"; };
 		121D090B1DAD9465000FB6D0 /* NewsSourceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceDetailViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,8 @@
 				121D09001DABD514000FB6D0 /* NetworkManagerImpl.swift */,
 				121D09021DABEBAC000FB6D0 /* BusinessManager.swift */,
 				121D09041DABEC52000FB6D0 /* BusinessManagerImpl.swift */,
+				121D09111DAE710B000FB6D0 /* BusinessManagerImpl+NetworkManagerDelegate.swift */,
+				121D09131DAE7228000FB6D0 /* Array+RemoveObject.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -109,6 +117,7 @@
 			children = (
 				121D08F81DABC425000FB6D0 /* NewsSource.swift */,
 				121D08FA1DABC524000FB6D0 /* Article.swift */,
+				121D090F1DAE6A3D000FB6D0 /* JSONDecodable.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -201,6 +210,8 @@
 				121D08F91DABC425000FB6D0 /* NewsSource.swift in Sources */,
 				121D09011DABD514000FB6D0 /* NetworkManagerImpl.swift in Sources */,
 				121D09031DABEBAC000FB6D0 /* BusinessManager.swift in Sources */,
+				121D09141DAE7228000FB6D0 /* Array+RemoveObject.swift in Sources */,
+				121D09101DAE6A3D000FB6D0 /* JSONDecodable.swift in Sources */,
 				121D090E1DAD959E000FB6D0 /* NewsSourceArticleTableViewCell.swift in Sources */,
 				121D08FB1DABC524000FB6D0 /* Article.swift in Sources */,
 				121D09081DAD8A5E000FB6D0 /* NewsSourceTableViewController.swift in Sources */,
@@ -210,6 +221,7 @@
 				121D090A1DAD8B47000FB6D0 /* NewsSourceTableViewCell.swift in Sources */,
 				121D08FD1DABC900000FB6D0 /* NetworkRequest.swift in Sources */,
 				121D08E51DABC3F1000FB6D0 /* FirstViewController.swift in Sources */,
+				121D09121DAE710B000FB6D0 /* BusinessManagerImpl+NetworkManagerDelegate.swift in Sources */,
 				121D090C1DAD9465000FB6D0 /* NewsSourceDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Article {
+struct Article: JSONDecodable {
     
     let author: String
     let title: String
@@ -45,4 +45,5 @@ struct Article {
     private static let kUrl = "url"
     private static let kImageUrl = "urlToImage"
     private static let kPublicationDate = "publishedAt"
+    
 }
