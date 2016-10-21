@@ -30,16 +30,5 @@ class BusinessManagerImpl: BusinessManager {
             completionHandler(nil, error)
         }
     }
-    func getArticles(for source: NewsSource, sorted by: NetworkRequest.SortBy, with completionHandler: @escaping ([Article]?, Error?) -> Void) {
-        articlesHandler = completionHandler
-        sourcesHandler = nil
-        let request = NetworkRequest.articles(source: source.identifier, sortBy: by)
-        do {
-            try networkManager.perform(request: request)
-        }
-        catch {
-            completionHandler(nil, error)
-        }
-    }
 }
 
